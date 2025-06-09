@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Review Q4 Marketing Campaign",
+    "description": "Analyze performance metrics and prepare recommendations for the upcoming quarter marketing strategy.",
+    "categoryId": "work",
+    "priority": "high",
+    "dueDate": "2024-01-15",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-01-10T09:00:00Z",
+    "updatedAt": "2024-01-10T09:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Update Project Documentation",
+    "description": "Review and update all technical documentation for the client portal project before handoff.",
+    "categoryId": "work",
+    "priority": "medium",
+    "dueDate": "2024-01-18",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-01-08T14:30:00Z",
+    "updatedAt": "2024-01-08T14:30:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Schedule Doctor Appointment",
+    "description": "Book annual check-up with Dr. Smith for next month.",
+    "categoryId": "health",
+    "priority": "medium",
+    "dueDate": "2024-01-20",
+    "completed": true,
+    "completedAt": "2024-01-11T16:45:00Z",
+    "createdAt": "2024-01-05T11:20:00Z",
+    "updatedAt": "2024-01-11T16:45:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Plan Weekend Trip to Mountains",
+    "description": "Research hiking trails, book accommodation, and prepare gear for the weekend getaway.",
+    "categoryId": "personal",
+    "priority": "low",
+    "dueDate": "2024-01-25",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-01-06T19:15:00Z",
+    "updatedAt": "2024-01-06T19:15:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Prepare Presentation for Board Meeting",
+    "description": "Create comprehensive slides covering project progress, budget allocation, and future roadmap.",
+    "categoryId": "work",
+    "priority": "urgent",
+    "dueDate": "2024-01-14",
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-01-09T08:45:00Z",
+    "updatedAt": "2024-01-09T08:45:00Z"
+  },
+  {
+    "id": "6",
+    "title": "Research New Recipe for Dinner Party",
+    "description": "Find and test a new main course recipe for hosting friends next weekend.",
+    "categoryId": "personal",
+    "priority": "low",
+    "dueDate": null,
+    "completed": false,
+    "completedAt": null,
+    "createdAt": "2024-01-07T20:30:00Z",
+    "updatedAt": "2024-01-07T20:30:00Z"
+  }
+]

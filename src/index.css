@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import react-toastify CSS */
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+/* Ensure scrollbars are visible */
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inter', ui-sans-serif, system-ui;
+}
+
+/* Prevent horizontal overflow */
+* {
+  max-width: 100%;
+}
+
+/* Main content areas must allow scroll */
+.main-content {
+  overflow-y: auto;
+  height: 100vh;
+}
+
+@layer utilities {
+  /* Only use scrollbar-hide for specific UI elements, never main content */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Custom gradient backgrounds for priority levels */
+  .priority-urgent {
+    background: linear-gradient(135deg, #6366F1 0%, #EC4899 100%);
+  }
+  
+  .priority-high {
+    background: linear-gradient(135deg, #EC4899 0%, #F59E0B 100%);
+  }
+  
+  .priority-medium {
+    background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%);
+  }
+  
+  .priority-low {
+    background: linear-gradient(135deg, #10B981 0%, #3B82F6 100%);
+  }
+}
