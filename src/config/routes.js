@@ -1,11 +1,11 @@
 import Home from '../pages/Home';
-
+import HomePage from '@/components/pages/HomePage'; // This import needs to change
 export const routes = {
   home: {
     id: 'home',
     label: 'Tasks',
     path: '/tasks',
-    icon: 'CheckSquare',
+//     component: HomePage, // This component needs to change
     component: Home
   }
 };
