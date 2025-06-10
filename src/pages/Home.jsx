@@ -205,7 +205,7 @@ const Home = () => {
         <div className="p-6">
           {/* Quick Stats */}
           <div className="mb-6">
-            <h2 className="font-heading font-semibold text-surface-900 mb-4">Overview</h2>
+            <h2 className="font-heading font-semibold text-surface-900 mb-4">Overview 1</h2>
             <div className="space-y-3">
               {overdueTasks.length > 0 && (
                 <div className="bg-error/10 border border-error/20 rounded-lg p-3">
